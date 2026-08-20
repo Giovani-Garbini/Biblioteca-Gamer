@@ -1,35 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteca Gamer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Biblioteca Gamer</h1>
-    <p>Seja Bem-Vindo!</p>
-    <p>Entre para acessar sua biblioteca de jogos e conteúdos favoritos!</p>
+    <main>
 
-    <h2>Login</h2>
-    <form action="">
-        <label for="username">Usuário:</label>
-        <input type="text" id="username" name="username">
-        
-        <label for="password">Senha:</label>
-        <input type="password" id="password" name="password">
-    
+        <section id="welcome">
+            <h1>Biblioteca Gamer</h1>
+            <p>Seja Bem-Vindo!</p>
+            <p>Entre para acessar sua biblioteca de jogos e conteúdos favoritos!</p>
+        </section>
 
-    <p><input type="checkbox" id="relembrar" name="relembrar"><label for="relembrar"> Lembrar dessa conta</label></p>
-    <p><a href="#">Esqueceu sua senha?</a></p>
+        <section id="login">
+            <h2>Login</h2>
+            <form action="">
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" name="username">
 
-    <button type="submit">Entrar</button>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password">
 
-    <p>Ou</p>
 
-    <p>Ainda não tem uma conta? <a href="#">Cadastre-se</a></p>
-    </form>
+                <input type="checkbox" id="relembrar" name="relembrar"><label for="relembrar"> Lembrar dessa conta</label>
+                <p><a href="#">Esqueceu sua senha?</a></p>
+
+                <button type="submit">Entrar</button>
+
+                <p>Ou</p>
+
+                <p>Ainda não tem uma conta? <a href="#">Cadastre-se</a></p>
+            </form>
+        </section>
+    </main>
     <footer>
         <p>2026 Biblioteca Gamer.</p>
     </footer>
 </body>
+
 </html>
